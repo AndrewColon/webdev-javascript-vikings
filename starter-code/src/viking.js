@@ -24,7 +24,7 @@ class Viking extends Soldier {
             return name + "has received" + Damage + "points of damage"
         }
         else if(Viking.health < 0) {
-            return "NAME has died in act of combat";
+            return name + "has died in act of combat"
         }
         
     }
